@@ -6,7 +6,7 @@ body {
   opacity: 0.9;
 }
 
-/* Header Styling*/
+/* Header Styling */
 
 header {
   position: fixed;
@@ -42,11 +42,55 @@ nav a {
 
 /* Mission Statement Styling */
 
-.mission {
+#mission {
   background-image: url(../images/img-mission-background.jpg);
   width: 1200px;
   height: 700px;
   display: flex;
+  flex-wrap: wrap;
   margin: 0 auto;
   margin-top: 70px;
+  justify-content: center;
+  align-items: center;
+}
+
+.statement {
+  background-color: black;
+  width: 1200px;
+  height: 100px;
+  align-items: center;
+  text-align: center;
+}
+
+.statement h2 {
+  margin: 10px auto;
+}
+
+.statement h4 {
+  margin: 15px auto 10px auto;
+}
+
+/* Tea of the Month */
+
+#tea {
+  width: 1000px;
+  height: 750px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.tea-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  margin: 0 15px;
+}
+
+.item h4 {
+  margin-top: 10px;
 }
